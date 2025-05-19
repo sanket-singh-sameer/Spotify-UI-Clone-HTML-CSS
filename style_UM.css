@@ -1,0 +1,117 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background-color: black;
+    margin: 0;
+    color: white;
+    overflow: hidden;
+}
+
+
+.main{
+    display : flex;
+    height:100vh;
+}
+
+.navBar{
+    background-color: azure;
+    position:fixed;
+    top:0;
+    width:100vw;
+    height: 50px;
+}
+.sideBar{
+    background-color: red;
+    width:420px;
+    border-radius: 1rem;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.mainContent{
+    background-color: blue;
+    flex:1;
+    border-radius: 1rem;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.musicPlayer{
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    width:100vw;
+    height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1400px){
+    .sideBar{
+        width: 300px;
+    }
+}
+@media(max-width:900px){
+    .sideBar{
+        width: 75px;
+    }
+}
